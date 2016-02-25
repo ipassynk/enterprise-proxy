@@ -23,7 +23,7 @@ git config --global https.proxy %HTTPS_PROXY%
 git config --global http.sslVerify false
 ```
 
-* npm. Create .npmrc in you user home with the folloiwng content
+* npm. Create .npmrc file in you user home with the folloiwng content
 ```
 https-proxy=http://user:password@hostname:port
 proxy=http://user:password@hostname:port
@@ -31,7 +31,7 @@ strict-ssl=false
 rejectUnauthorized=false
 ```
 
-* bower. Create .bowerrc in you user home with the folloiwng content
+* bower. Create .bowerrc file in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
@@ -41,7 +41,7 @@ rejectUnauthorized=false
 }
 ```
 
-* tsd. Create .tsdrc in you user home with the folloiwng content
+* tsd. Create .tsdrc file in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
@@ -51,7 +51,7 @@ rejectUnauthorized=false
 }
 ```
 
-* typings. Create .tsdrc in you user home with the folloiwng content
+* typings. Create .tsdrc file in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
