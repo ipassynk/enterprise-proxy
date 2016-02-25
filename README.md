@@ -10,20 +10,20 @@ I am thing to make a script to general it and update password... (TODO)
 *hostname:port*  with enterpise proxy hostname:port
 
 
-1. http proxy
+* http proxy
 ```
 set HTTP_PROXY=http://user:password@hostname:port
 set HTTPS_PROXY=http://user:password@hostname:port
 git config --global http.sslVerify false
 ```
 
-2. Git (if you have it)
+* Git (if you have it)
 ```
 git config --global http.proxy %HTTP_PROXY%
 git config --global https.proxy %HTTPS_PROXY%
 ```
 
-3. npm. Create .npmrc in you user home with the folloiwng content
+* npm. Create .npmrc in you user home with the folloiwng content
 ```
 https-proxy=http://user:password@hostname:port
 proxy=http://user:password@hostname:port
@@ -31,7 +31,7 @@ strict-ssl=false
 rejectUnauthorized=false
 ```
 
-4. bower. Create .bowerrc in you user home with the folloiwng content
+* bower. Create .bowerrc in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
@@ -41,7 +41,7 @@ rejectUnauthorized=false
 }
 ```
 
-4. tsd. Create .tsdrc n you user home with the folloiwng content
+* tsd. Create .tsdrc n you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
@@ -51,7 +51,7 @@ rejectUnauthorized=false
 }
 ```
 
-5. typings. Create .tsdrc n you user home with the folloiwng content
+* typings. Create .tsdrc n you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
