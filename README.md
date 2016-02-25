@@ -41,7 +41,7 @@ rejectUnauthorized=false
 }
 ```
 
-* tsd. Create .tsdrc n you user home with the folloiwng content
+* tsd. Create .tsdrc in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
@@ -51,7 +51,7 @@ rejectUnauthorized=false
 }
 ```
 
-* typings. Create .tsdrc n you user home with the folloiwng content
+* typings. Create .tsdrc in you user home with the folloiwng content
 ```
 {
     "https-proxy": "http://user:password@hostname:port",
