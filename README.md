@@ -61,6 +61,16 @@ rejectUnauthorized=false
 }
 ```
 
+### C++ installation
+Some of the required npm packages use [node-gyp](https://github.com/nodejs/node-gyp) to compile native C++ dll. 
+It is required to install C++ compiler and python for node-gyp.
+
+I had to install Visual Studio 2015
+Please read [Microsoft Prerequisites](https://github.com/Microsoft/nodejs-guidelines/blob/master/windows-environment.md#prerequisites)
+It is important to select 'Custom->Programming Languages->Visual C++->Common Tools for Visual C++' during installation
+
+Use https://www.microsoft.com/en-us/download/details.aspx?id=48146 to download vs_community.exe
+
 Enjoy!
 
 ---
