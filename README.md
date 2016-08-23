@@ -21,6 +21,7 @@ set HTTPS_PROXY=http://user:password@hostname:port
 git config --global http.proxy %HTTP_PROXY%
 git config --global https.proxy %HTTPS_PROXY%
 git config --global http.sslVerify false
+git config --global url."https://".insteadOf git://
 ```
 
 * npm. Create .npmrc file in you user home directory with the folloiwng content
