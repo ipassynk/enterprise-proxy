@@ -30,6 +30,7 @@ https-proxy=http://user:password@hostname:port
 proxy=http://user:password@hostname:port
 strict-ssl=false
 rejectUnauthorized=false
+registry=http://registry.npmjs.org/
 ```
 
 * bower. Create .bowerrc file in you user home directory with the folloiwng content
